@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6B0DC276-1E53-4B24-A4D7-C5F66227AF86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrapper", "Bootstrapper", "{180B8578-C5ED-468B-B6F5-B627EADD3033}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{F0BDA8EE-3C48-49AF-9A04-A009E76B0773}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{8CF4FBDF-BAAA-4AB0-B711-E86EDB4D7B60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inflow.Bootstrapper", "src\Bootstrapper\Inflow.Bootstrapper\Inflow.Bootstrapper.csproj", "{2A123F8C-5D01-40AB-8722-5D191594FA6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inflow.Shared.Abstractions", "src\Shared\Inflow.Shared.Abstractions\Inflow.Shared.Abstractions.csproj", "{64E4A4DB-5DE7-47AF-A06A-54988EAFBE3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inflow.Shared.Infrastructure", "src\Shared\Inflow.Shared.Infrastructure\Inflow.Shared.Infrastructure.csproj", "{D3116452-02A4-4660-9F12-0BC69242567E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{180B8578-C5ED-468B-B6F5-B627EADD3033} = {6B0DC276-1E53-4B24-A4D7-C5F66227AF86}
+		{F0BDA8EE-3C48-49AF-9A04-A009E76B0773} = {6B0DC276-1E53-4B24-A4D7-C5F66227AF86}
+		{8CF4FBDF-BAAA-4AB0-B711-E86EDB4D7B60} = {6B0DC276-1E53-4B24-A4D7-C5F66227AF86}
+		{2A123F8C-5D01-40AB-8722-5D191594FA6C} = {180B8578-C5ED-468B-B6F5-B627EADD3033}
+		{64E4A4DB-5DE7-47AF-A06A-54988EAFBE3A} = {8CF4FBDF-BAAA-4AB0-B711-E86EDB4D7B60}
+		{D3116452-02A4-4660-9F12-0BC69242567E} = {8CF4FBDF-BAAA-4AB0-B711-E86EDB4D7B60}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A123F8C-5D01-40AB-8722-5D191594FA6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A123F8C-5D01-40AB-8722-5D191594FA6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A123F8C-5D01-40AB-8722-5D191594FA6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A123F8C-5D01-40AB-8722-5D191594FA6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64E4A4DB-5DE7-47AF-A06A-54988EAFBE3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E4A4DB-5DE7-47AF-A06A-54988EAFBE3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E4A4DB-5DE7-47AF-A06A-54988EAFBE3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E4A4DB-5DE7-47AF-A06A-54988EAFBE3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3116452-02A4-4660-9F12-0BC69242567E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3116452-02A4-4660-9F12-0BC69242567E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3116452-02A4-4660-9F12-0BC69242567E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3116452-02A4-4660-9F12-0BC69242567E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
